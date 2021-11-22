@@ -1,6 +1,7 @@
 package com.ppb.feeds.stt.storm.bolt
 
 import com.ppb.feeds.stt.core.output.OutputSource
+import com.ppb.feeds.stt.storm.MeterKey._
 import com.typesafe.scalalogging.LazyLogging
 import org.apache.storm.task.{OutputCollector, TopologyContext}
 import org.apache.storm.topology.OutputFieldsDeclarer
@@ -19,6 +20,12 @@ trait OutputBolt extends BaseRichBolt with LazyLogging {
   }
 
   override def execute(tuple: Tuple): Unit = {
+
+    val key     = tuple.getStringByField(KEY.name)
+    val market  = tuple.getValueByField(INSTRUCTION.name).asInstanceOf[String]
+
+    source.write(key, market)
+    output.ack(tuple)
   }
 
   override def declareOutputFields(declarer: OutputFieldsDeclarer): Unit = {
