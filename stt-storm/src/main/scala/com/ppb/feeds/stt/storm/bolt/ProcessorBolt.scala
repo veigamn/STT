@@ -33,6 +33,6 @@ trait ProcessorBolt extends BaseRichBolt with LazyLogging {
 
   override def declareOutputFields(outputFieldsDeclarer: OutputFieldsDeclarer): Unit = {
 
-    outputFieldsDeclarer.declare(new Fields(KEY.name, INSTRUCTION.name))
+    outputFieldsDeclarer.declare(new Fields(KEY.name, PHRASE.name))
   }
 }

@@ -22,7 +22,7 @@ trait OutputBolt extends BaseRichBolt with LazyLogging {
   override def execute(tuple: Tuple): Unit = {
 
     val key     = tuple.getStringByField(KEY.name)
-    val market  = tuple.getValueByField(INSTRUCTION.name).asInstanceOf[String]
+    val market  = tuple.getValueByField(PHRASE.name).asInstanceOf[String]
 
     source.write(key, market)
     output.ack(tuple)
