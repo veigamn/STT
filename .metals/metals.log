@@ -1,0 +1,66 @@
+[0m2021.11.22 17:23:58 INFO  Started: Metals version 0.10.9 in workspace '/Users/veigam/Documents/inductions/STT' for client Visual Studio Code - Insiders 1.63.0-insider.[0m
+[0m2021.11.22 17:23:59 INFO  time: initialize in 0.79s[0m
+[0m2021.11.22 17:24:00 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.22 17:24:00 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-core/src/main/scala/com/ppb/feeds/stt/core/output/kafka/KafkaOutputsource.scala[0m
+[0m2021.11.22 17:24:00 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-core/src/main/scala/com/ppb/feeds/stt/core/output/mock/MockOutput.scala[0m
+[0m2021.11.22 17:24:14 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.22 17:24:29 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-core/src/main/scala/com/ppb/feeds/stt/core/output/OutputSource.scala[0m
+nov 22, 2021 5:24:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.11.22 17:24:29 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-core/src/main/scala/com/ppb/feeds/stt/core/processor/mock/MockProcessor.scala[0m
+nov 22, 2021 5:24:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+nov 22, 2021 5:24:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+[0m2021.11.22 17:24:31 INFO  time: code lens generation in 2.16s[0m
+[0m2021.11.22 17:24:31 INFO  time: code lens generation in 2.26s[0m
+[0m2021.11.22 17:24:31 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-core/src/main/scala/com/ppb/feeds/stt/core/processor/Processor.scala[0m
+[0m2021.11.22 17:24:31 INFO  time: code lens generation in 29s[0m
+[0m2021.11.22 17:24:31 INFO  time: code lens generation in 2.43s[0m
+[0m2021.11.22 17:24:31 INFO  time: code lens generation in 2.43s[0m
+nov 22, 2021 5:24:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+[0m2021.11.22 17:25:03 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/OutputBolt.scala[0m
+[0m2021.11.22 17:25:17 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/OutputBolt.scala[0m
+[0m2021.11.22 17:25:17 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/OutputBolt.scala[0m
+[0m2021.11.22 17:25:19 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/ProcessorBolt.scala[0m
+nov 22, 2021 5:25:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+[0m2021.11.22 17:25:44 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/ProcessorBolt.scala[0m
+[0m2021.11.22 17:25:44 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/ProcessorBolt.scala[0m
+[0m2021.11.22 17:25:44 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/ProcessorBolt.scala[0m
+[0m2021.11.22 17:25:44 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/ProcessorBolt.scala[0m
+[0m2021.11.22 17:25:45 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/bolt/ProcessorBolt.scala[0m
+nov 22, 2021 5:25:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 115
+nov 22, 2021 5:25:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+[0m2021.11.22 17:25:52 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:02 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:03 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:10 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:10 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:10 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:10 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:11 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:11 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:11 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:11 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:11 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/deploy/STTDeployer.scala[0m
+[0m2021.11.22 17:26:15 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/module/KafkaOutputModule.scala[0m
+[0m2021.11.22 17:26:32 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/module/OutputModule.scala[0m
+[0m2021.11.22 17:26:35 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/module/ProcessorModule.scala[0m
+[0m2021.11.22 17:26:36 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/module/SpoutModule.scala[0m
+[0m2021.11.22 17:26:37 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/STT.scala[0m
+[0m2021.11.22 17:26:46 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/STT.scala[0m
+[0m2021.11.22 17:26:46 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/STT.scala[0m
+[0m2021.11.22 17:26:46 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/STT.scala[0m
+[0m2021.11.22 17:26:46 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/STT.scala[0m
+[0m2021.11.22 17:26:46 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/STT.scala[0m
+[0m2021.11.22 17:26:48 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/STT.scala[0m
+[0m2021.11.22 17:26:48 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/topology/STT.scala[0m
+[0m2021.11.22 17:26:50 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/translator/InstructionTranslator.scala[0m
+[0m2021.11.22 17:27:08 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/translator/InstructionTranslator.scala[0m
+[0m2021.11.22 17:27:08 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/translator/InstructionTranslator.scala[0m
+[0m2021.11.22 17:27:08 WARN  no build target for: /Users/veigam/Documents/inductions/STT/stt-storm/src/main/scala/com/ppb/feeds/stt/storm/translator/InstructionTranslator.scala[0m
+[0m2021.11.22 17:27:10 INFO  shutting down Metals[0m

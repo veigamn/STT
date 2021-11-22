@@ -1,0 +1,21 @@
+version: '3'
+services:
+  zoo-service:
+    image: 'zookeeper:latest'
+    ports:
+      - 2181:2181
+      - 2388:2388
+      - 3888:3888
+  kafka-service:
+    image: 'wurstmeister/kafka:latest'
+    environment:
+      - KAFKA_ZOOKEEPER_CONNECT=zoo-service:2181
+      - KAFKA_CREATE_TOPICS=test-input-topic:3:1,test-output-topic:3:1
+      - KAFKA_ADVERTISED_LISTENERS=INSIDE://kafka-service:9092,OUTSIDE://localhost:31092
+      - KAFKA_LISTENERS=INSIDE://:9092,OUTSIDE://:31092
+      - KAFKA_LISTENER_SECURITY_PROTOCOL_MAP=INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      - KAFKA_INTER_BROKER_LISTENER_NAME=INSIDE
+    ports:
+      - 31092:31092
+    depends_on:
+      - zoo-service
