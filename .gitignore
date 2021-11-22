@@ -33,7 +33,8 @@ logs
 .svn
 .CVS
 .hg*
-
+.metals
+.vscode
 # switch to regexp syntax.
 #  syntax: regexp
 #  ^\.pc/
