@@ -21,8 +21,8 @@ trait ProcessorBolt extends BaseRichBolt with LazyLogging {
 
   override def execute(tuple: Tuple): Unit = {
 
-    val key = tuple.getValueByField(KEY.name)
-    val phrase = tuple.getValueByField(PHRASE.name).asInstanceOf[String]
+    val key     = tuple.getValueByField(KEY.name)
+    val phrase  = tuple.getValueByField(PHRASE.name).asInstanceOf[String]
 
     logger.info(s"Phrase processed: $phrase")
     val results: Seq[String] = processor.process(phrase)
@@ -32,7 +32,6 @@ trait ProcessorBolt extends BaseRichBolt with LazyLogging {
   }
 
   override def declareOutputFields(outputFieldsDeclarer: OutputFieldsDeclarer): Unit = {
-
-    outputFieldsDeclarer.declare(new Fields(KEY.name, PHRASE.name))
+    outputFieldsDeclarer.declare(new Fields(KEY.name, WORD.name))
   }
 }

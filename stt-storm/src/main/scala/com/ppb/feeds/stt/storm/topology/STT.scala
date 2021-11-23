@@ -18,12 +18,12 @@ trait STT extends SpoutModule
   def create(): StormTopology = {
     val builder = new TopologyBuilder()
 
-    builder.setSpout(SPOUT, getSpout(), 3)
+    builder.setSpout(SPOUT, getSpout(), 1)
 
     builder.setBolt(PROCESSOR, getProcessor(), 1)
       .shuffleGrouping(SPOUT)
 
-    builder.setBolt(OUTPUT, getOutput(), 3)
+    builder.setBolt(OUTPUT, getOutput(), 1)
       .shuffleGrouping(PROCESSOR)
 
     builder.createTopology()
